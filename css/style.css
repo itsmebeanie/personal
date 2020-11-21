@@ -1,0 +1,55 @@
+@font-face {
+    font-family: Karrik-Regular;
+    src: url('fonts/Karrik-Regular.tff') format('truetype'),
+         url('fonts/Karrik-Regular.woff') format ('woff');
+    font-weight: normal;
+    font-style: normal;  
+}
+
+@font-face {
+    font-family: Happy-Times;
+    src: url('fonts/happy-times-NG_regular_master_web.ttf') format('truetype'),
+         url('fonts/happy-times-NG_regular_master_web.woff') format ('woff');
+    font-weight: normal;
+    font-style: normal;  
+}
+
+@font-face {
+    font-family: Savate;
+    src: url('fonts/savate-regular.otf');
+    font-weight: normal;
+    font-style: normal;  
+}
+
+@font-face {
+    font-family: Pilowlava;
+    src: url('fonts/Pilowlava-Regular.otf');
+    font-weight: normal;
+    font-style: normal;  
+}
+
+body {
+    padding: 5rem;
+}
+
+h1 {
+    font-family: Savate;
+}
+
+h2, h3, h4{
+    font-family: Karrik;
+}
+
+p, div { 
+    font-family: Happy-Times;
+}
+
+a {
+  color: red;
+  display: inline-block;
+  position: relative;
+  text-decoration: underline;
+}
+a:hover {
+    color: #345251;
+}
