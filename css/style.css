@@ -25,15 +25,16 @@ a:hover {
     color: #2153ae; 
 }
 
-.textContent:hover #profile, .studioContent:hover + #studio, .petanque:hover + .hiddenImg, .jerry:hover + .hiddenImg {
-    visibility: visible;
-    opacity: 1;
-    transition: opacity 0.5s linear;
+@media (min-width:801px)  {
+    .textContent:hover #profile, .studioContent:hover + #studio, .petanque:hover + .hiddenImg, .jerry:hover + .hiddenImg {
+        visibility: visible;
+        opacity: 1;
+        transition: opacity 0.5s linear;
+    }
 }
-
 #profile, #studio, .hiddenImg {
     position: absolute;
-    left: 60;
+    right: 60;
     bottom: 60;
     visibility: hidden;
     opacity: 0;
@@ -59,3 +60,6 @@ a:hover {
     }
   }
   
+  img {
+      z-index: -99999;
+  }
